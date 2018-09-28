@@ -1,0 +1,46 @@
+img{
+    
+    /* display: block; */
+    transition: 5s;
+    /* transform-origin: top center; */
+
+}
+
+div:hover img{
+    display: block;
+    animation:  1s ease;
+}
+img:hover{
+
+    opacity: 0.5%;
+}
+
+
+@keyframes slide{
+    0% {
+        /* transform: translateX(0,0) rotate(0) rotate3d(0, 0, 0, 0); */
+        transform: scaleY(0);
+    }
+
+    
+    100% {
+        /* transform: translate(150%,242%) rotate(199deg)rotate3d(1, 1, 1, 180deg); */
+        transform: scaleY(100%);
+    }
+}
+
+
+@keyframes open-menu {
+    0%{
+        transform: scaleY(0);
+
+    }
+    100%{
+        transform: scaleY(100%);
+    }
+
+}
+
+@keyframes highligth{
+
+}
